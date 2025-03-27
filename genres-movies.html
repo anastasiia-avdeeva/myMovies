@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="logo">
+            <img src="./src/assets/icons/iconExample.png" class="
+    logo__icon" alt="Icon Example">
+        </div>
+        <nav class="nav">
+            <ul class="nav__menu">
+                <li class="nav__menu-item">Home</li>
+                <li class="nav__menu-item">WatchList</li>
+                <li class="nav__menu-item">Watched</li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" id="search__input" class="search__input" placeholder="Search for a movie">
+            <img src="./src/assets/icons/icons8-magnifying-glass.svg" class="search__icon" alt="Magnifying glass icon">
+        </div>
+    </header>
+
+    <main class="main" id="main">
+        <div class="genres" id="genres">
+            <!-- <div class="genre" id="genreContainer" data-id=""> -->
+                <!-- <h2 class="genre__title">Comedy</h2> -->
+                <div class="movies__scrollable">
+                    <div class="movie" data-id="1">
+                        <img src="./src/assets/images/fix.genres.jpg" alt="movie-comedy" class="movie__img">
+                        <div class="movie__info">
+                            <h3 class="movie__title">Movie Title</h3>
+                            <p class="movie__year">2023</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <div class="genre" data-id="">
+                
+            </div>
+            <div class="genre" data-id="">
+                
+            </div>
+            <div class="genre" data-id="">
+
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/movies-genres/genre.js"></script>
+</body>
+</html>
