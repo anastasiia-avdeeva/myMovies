@@ -79,7 +79,9 @@ body {
     padding-right: 10px;
   }
 }
-.full-movie__feature-name, .full-movie__feature-value, .full-movie__lst-item {
+.full-movie__feature-name,
+.full-movie__feature-value,
+.full-movie__lst-item {
   font-family: "Manrope", sans-serif;
   line-height: 150%;
   font-weight: 500;
@@ -90,7 +92,8 @@ body {
   display: flex;
   gap: 20px;
 }
-.full-movie__content, .full-movie__facts {
+.full-movie__content,
+.full-movie__facts {
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -147,7 +150,7 @@ body {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .full-movie__cast-btn {
   border: none;
@@ -175,7 +178,7 @@ body {
 }
 .logo-container__icon {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   cursor: pointer;
 }
 
@@ -290,7 +293,8 @@ body {
     padding-right: 20px;
   }
 }
-.footer__nav, .footer__links {
+.footer__nav,
+.footer__links {
   padding-top: 7px;
 }
 .footer__links {
@@ -383,7 +387,7 @@ body {
   width: 28px;
   height: 28px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .control-bar__tooltip {
   padding: 4px 10px;
@@ -472,7 +476,7 @@ body {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .movie-card__text-container {
   display: flex;
@@ -487,7 +491,8 @@ body {
 .movie-card__text-container:hover {
   max-height: 1000px;
 }
-.movie-card__movieTitle, .movie-card__movie-info {
+.movie-card__movieTitle,
+.movie-card__movie-info {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -648,7 +653,8 @@ body {
   padding: 5px 10px;
   cursor: pointer;
 }
-.genre__watch-all:hover, .genre__title:hover {
+.genre__watch-all:hover,
+.genre__title:hover {
   cursor: pointer;
   font-weight: 800;
   color: tomato;
@@ -668,7 +674,7 @@ body {
   position: relative;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 10px;
   background-color: #1a1a1a;
   border: 1px solid #262626;
@@ -769,7 +775,8 @@ body {
 .popup:hover {
   height: auto;
 }
-.popup:hover__title, .popup:hover__overview {
+.popup:hover__title,
+.popup:hover__overview {
   white-space: normal;
   overflow: visible;
   text-overflow: unset;
@@ -793,7 +800,7 @@ body {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 4px;
 }
 .popup__title-container {
@@ -876,7 +883,8 @@ body {
   gap: 20px;
   border-radius: 12px;
   border: 1px solid #262626;
-  background-image: linear-gradient(0deg, #141414 0%, rgba(20, 20, 20, 0) 100%), url("./assets/images/defaultMovieBG2.jpg");
+  background-image: linear-gradient(0deg, #141414 0%, rgba(20, 20, 20, 0) 100%),
+    url("./assets/images/defaultMovieBG.jpg");
   background-color: lightgray;
   background-position: top center;
   background-size: cover;
@@ -934,7 +942,8 @@ body {
   font-family: "Manrope", sans-serif;
   line-height: 150%;
   cursor: pointer;
-  transition: background-color 0.3s ease, border 0.3s ease, font-weight 0.3s ease;
+  transition: background-color 0.3s ease, border 0.3s ease,
+    font-weight 0.3s ease;
   opacity: 0;
   pointer-events: none;
 }
